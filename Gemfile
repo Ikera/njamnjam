@@ -26,10 +26,11 @@ gem 'puma', '~> 3.0'
 # gem 'rack-cors'
 
 group :development, :test do
-  gem 'rspec-rails', '~> 3.7'
-  gem 'pry-rails', '~> 0.3.6'
-  gem 'factory_girl', '~> 4.9'
   gem 'shoulda-matchers', '~> 3.1'
+  gem 'rspec-rails',      '~> 3.7'
+  gem 'pry-rails',        '~> 0.3.6'
+  gem 'factory_bot'
+  gem 'faker'
 end
 
 group :development do
