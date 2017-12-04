@@ -1,0 +1,2 @@
+class FoodFacility < ApplicationRecord
+end
