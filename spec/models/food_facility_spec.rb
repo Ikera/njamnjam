@@ -1,5 +1,6 @@
 require 'rails_helper'
 
 RSpec.describe FoodFacility, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it { should have_db_column(:name).of_type(:string) }
+  it { should have_db_column(:description).of_type(:text) }
 end
